@@ -41,8 +41,7 @@ class MyHomeScreenState extends State<MyHomeScreen> {
 
   @override
   Widget build(BuildContext context) {
-
-    void calculateBMI(){
+    void calculateBMI() {
       var wt = wtController.text.toString();
       var ft = ftController.text.toString();
       var inch = inController.text.toString();
@@ -76,8 +75,7 @@ class MyHomeScreenState extends State<MyHomeScreen> {
             bgColor = Colors.yellowAccent;
           }
 
-          result =
-          "$msg\n\nYour BMI is : ${bmi.toStringAsFixed(2)}";
+          result = "$msg\n\nYour BMI is : ${bmi.toStringAsFixed(2)}";
         } else {
           bgColor = Colors.lightBlue.shade100;
           result = "Please, Enter valid parameters!";
@@ -95,7 +93,7 @@ class MyHomeScreenState extends State<MyHomeScreen> {
     return Scaffold(
       appBar: AppBar(
         title: const Text(
-          "BRB Technologies",
+          "BMI Calculator",
           style: TextStyle(
               // fontFamily: "Josefin",
               fontWeight: FontWeight.bold),
@@ -111,7 +109,7 @@ class MyHomeScreenState extends State<MyHomeScreen> {
                 ),
                 child: const Center(
                     child: Text(
-                  "BRB Technologies",
+                  "BMI Calculator",
                   style: TextStyle(
                     fontSize: 20,
                   ),
@@ -121,7 +119,8 @@ class MyHomeScreenState extends State<MyHomeScreen> {
               title: const Text("Home"),
               onTap: () {
                 Navigator.pop(context);
-                Navigator.pushReplacement(context, MaterialPageRoute(builder: (context) {
+                Navigator.pushReplacement(context,
+                    MaterialPageRoute(builder: (context) {
                   return const MyHomeScreen();
                 }));
               },

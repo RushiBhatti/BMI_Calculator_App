@@ -8,7 +8,7 @@ class AboutScreen extends StatelessWidget {
     return Scaffold(
       appBar: AppBar(
         title: const Text(
-          "BRB Technologies",
+          "BMI Calculator",
           style: TextStyle(
             // fontFamily: "Josefin",
               fontWeight: FontWeight.bold),

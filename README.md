@@ -1,15 +1,6 @@
 # BMI Calculator App
 This is my first Flutter project.
 
-## Getting Started
+- Users can input their height and weight and see their Body Mass Index as a result.
+- App also shows a message to the user according to input, if input parameters are not valid then app shows that 'Please, enter valid parameters!'.
 
-This project is a starting point for a Flutter application.
-
-A few resources to get you started if this is your first Flutter project:
-
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
-
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
