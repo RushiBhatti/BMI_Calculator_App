@@ -4,7 +4,12 @@ This is my first Flutter project.
 - Users can input their height and weight and see their Body Mass Index as a result.
 - App also shows a message to the user according to input, if input parameters are not valid then app shows that 'Please, enter valid parameters!'.
 
-**You can see the Execution Video of this app by clicking on below link :**
+**Output video and screenshots are given below.**
+
+# Video
+Here is the video of BMI Calculator App :
+https://github.com/RushiBhatti/BMI_Calculator_App/assets/139007370/4f9e5626-b355-4ef0-b8d7-d6647689d9b4
+
 
 # Screenshots
 
